@@ -1,4 +1,26 @@
 {
 "siteName":"React GitHub Press Demo",
-"siteDescription":"React GitHub Press Description"
+"siteDescription":"React GitHub Press Description",
+  "navLinks" : [
+   {
+    "file":"5.Object Oriented Programming.html",
+     "text":"JAVA Dev"
+  },
+     {
+    "file":"1.Web Programming.html",
+     "text":"PHP Dev"
+  },
+     {
+    "file":"2.Web Application Development.html",
+     "text":"Laravel Dev"
+  },
+    {
+    "file":"3.Advanced Web Technologies.html",
+     "text":"REST API"
+  },
+    {
+    "file":"4.Mobile Applications Development.html",
+     "text":"Mobile Dev"
+  }
+  ]
 }

@@ -2,7 +2,7 @@
   "siteName": "ReactJS",
   "siteDescription": "",
   "navBrand": "<i class='fab fa-react mr-1'></i>ReactJS",
-  "navClass": "bg-dark2 navbar-dark2",
+  "navClass": "bg-dark navbar-dark",
   "navLinks": [{
       "file": "5.Object Oriented Programming.html",
       "text": "JAVA Dev"

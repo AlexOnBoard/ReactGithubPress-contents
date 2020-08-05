@@ -1,6 +1,7 @@
 {
   "siteName": "GDIT",
-  "siteDescription": "Students in Applied Information Technology will learn the knowledge and skills to deliver quality information technology services, and develop effective communication skills to support and enhance a range of organisations and industries.Students can choose to specialise in one of the following five specialisations: Database Administration, Database Development, Network engineering, Software Engineering, Web Development",
+  "siteDescription": "",
+  "navBrand": "<i class='fab fa-react mr-1'></i>GDIT",
   "navLinks": [{
       "file": "5.Object Oriented Programming.html",
       "text": "JAVA Dev"

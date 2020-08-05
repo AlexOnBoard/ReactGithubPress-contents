@@ -1,0 +1,16 @@
+<h3>JIT — The Just in Time Compiler</h3>
+
+Even if opcodes are in the form of low-level intermediate representation, they still have to be compiled into machine
+code. JIT “doesn’t introduce any additional IR (Intermediate Representation) form”, but uses DynASM (Dynamic Assembler
+for code generation engines) to generate native code directly from PHP byte-code.
+<p></p>
+In short, JIT translates the hot parts of the intermediate code into machine code. Bypassing compilation, it’d be able
+to bring considerable improvements in performance and memory usage.
+<p></p>
+Zeev Surasky, co-author of the PHP JIT proposal, shows how much calculations would be faster with JIT:
+<p></p>
+<div class="embed-responsive embed-responsive-4by3">
+    <iframe class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/dWH65pmnsrI"
+        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+</div>

@@ -5,11 +5,15 @@
   "navClass": "navbar-dark bg-primary",
   "navLinks": [{
       "file": "1.What’s new in PHP 8.0.html",
-      "text": "What's new in PHP 8"
+      "text": "What's new"
     },
     {
       "file": "2.Supported PHP Versions.html",
-      "text": "Supported PHP Versions"
+      "text": "PHP Versions"
+    },
+    {
+      "file": "3.JIT — The Just in Time Compiler",
+      "text": "Just in Time"
     },
     {
       "file": "2.Web Application Development.html",
@@ -18,10 +22,6 @@
     {
       "file": "3.Advanced Web Technologies.html",
       "text": "REST API"
-    },
-    {
-      "file": "4.Mobile Applications Development.html",
-      "text": "Mobile Dev"
     }
   ]
 }

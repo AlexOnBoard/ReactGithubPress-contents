@@ -1,6 +1,8 @@
 {
   "siteName": "PHP 8",
   "siteDescription": "",
+  "navBrand": "<i class='fab fa-php mr-1'></i>ReactJS",
+  "navClass": "navbar-dark bg-primary",
   "navLinks": [{
       "file": "5.Object Oriented Programming.html",
       "text": "JAVA Dev"

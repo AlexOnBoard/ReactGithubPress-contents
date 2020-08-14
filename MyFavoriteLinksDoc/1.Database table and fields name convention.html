@@ -1,0 +1,22 @@
+<h3>My database table & column name conventions</h3>
+<ul>
+    <li>Database Tables & Columns: snake_case(eg. user_id, task_user)/li>
+    <li>Each table has a primary key column named id(automatically increase)</li>
+    <li>One to many foreign key : Singular table name(snake_case) _id, eg. user_id, link_id, category_id</li>
+    <li>Many to many tables & columns: three database tables are needed: users, roles, and role_user. The role_user
+        table is derived from the alphabetical order of the related model names, and contains the user_id and role_id
+        columns.
+    </li>
+    <li>Date columns: use timestamps format</li>
+
+    <li>Ref: https://laravel.com/docs/7.x/eloquent#eloquent-model-conventions</li>
+    <li>Ref: https://laravel.com/docs/7.x/eloquent-relationships</li>
+</ul>
+
+<h3>File & class & method name conventions</h3>
+<ul>
+    <li>Procedural function filename: camelCase</li>
+    <li>OOP Classes,Controllers filename: PascalCase, be the same as Class name</li>
+    <li>Template filename: snake_case(eg. new_user.tpl.php)</li>
+    <li>Methods,Properties,Functions,Variables: camelCase</li>
+</ul>

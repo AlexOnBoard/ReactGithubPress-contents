@@ -4,6 +4,7 @@
   "siteFooterHtml": "<div class='mt-5 mb-3 p-4 bg-warning text-light text-center'>Demos: <a href='?t=gdit#demoDir=demo1GDIT' class='text-light  mr-2 ml-2'><i class='fab fa-github mr-1'></i>GDIT</a>-<a href='?t=php#demoDir=demo3PHP8' class='text-light mr-2 ml-2'><i class='fab fa-github mr-1'></i>PHP 8</a>-<a href='?t=REACT#demoDir=demo2ReactJS' class='text-light mr-2 ml-2'><i class='fab fa-github mr-1'></i>ReactJS</a><div class='m-3'>Graduate Diploma in Applied Information Technology!</div><div class='m-3'>2022</div></div>",
   "navBrand": "<i class='fas fa-laptop-code mr-1'></i>GDIT",
   "navClass": "navbar-light bg-warning",
+  "searchButtonClass": "btn-dark",
   "navLinks": [{
       "file": "5.Object Oriented Programming.html",
       "text": "JAVA Dev"

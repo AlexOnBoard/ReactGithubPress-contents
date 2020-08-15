@@ -3,7 +3,7 @@
   "navBrand": "<i class='fab fa-php mr-1'></i>PHP8",
   "siteHeaderHtml": "<div><img src='https://keystonedata.co.in/wp-content/uploads/2018/04/PHP-Development.png' class='img-fluid' /></div>",
   "navClass": "bg-dark navbar-dark",
-  "searchButtonClass": "btn-success",
+  "searchButtonClass": "btn-secondary",
   "siteFooterHtml": "<div class='mt-5 mb-3 p-4 bg-dark text-light text-center'>Demos: <a href='?t=gdit#demoDir=demo1GDIT' class='text-light  mr-2 ml-2'><i class='fab fa-github mr-1'></i>GDIT</a>-<a href='?t=php#demoDir=demo3PHP8' class='text-light mr-2 ml-2'><i class='fab fa-github mr-1'></i>PHP 8</a>-<a href='?t=REACT#demoDir=demo2ReactJS' class='text-light mr-2 ml-2'><i class='fab fa-github mr-1'></i>ReactJS</a><div class='m-3'>PHP 8 will be released on November 26, 2020. It's a new major version!</div><div class='m-3'>2020</div></div>",
   "navLinks": [{
       "file": "1.What’s new in PHP 8.0.html",

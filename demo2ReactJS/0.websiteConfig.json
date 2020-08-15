@@ -2,6 +2,7 @@
   "siteName": "ReactJS",
   "siteHeaderHtml": "<h2 class='text-center text-success'><i class='fab fa-react mr-1'></i>ReactJS</h2>",
   "navBrand": "<i class='fab fa-react mr-1'></i>ReactJS",
+  "siteFooterHtml": "<div class='mt-5 mb-3 p-4 bg-primary text-light text-center'>Demos: <a href='?t=gdit#demoDir=demo1GDIT' class='text-light  mr-2 ml-2'><i class='fab fa-github mr-1'></i>GDIT</a>-<a href='?t=php#demoDir=demo3PHP8' class='text-light mr-2 ml-2'><i class='fab fa-github mr-1'></i>PHP 8</a>-<a href='?t=REACT#demoDir=demo2ReactJS' class='text-light mr-2 ml-2'><i class='fab fa-github mr-1'></i>ReactJS</a><div class='m-3'>You can add React to an HTML page in one minute!</div><div class='m-3'>2021</div></div>",
   "navClass": "navbar-dark bg-primary",
   "navLinks": [{
       "file": "5.Object Oriented Programming.html",

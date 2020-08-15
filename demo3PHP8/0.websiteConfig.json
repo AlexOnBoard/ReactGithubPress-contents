@@ -1,8 +1,8 @@
 {
   "siteName": "PHP 8",
-  "siteDescription": "",
   "navBrand": "<i class='fab fa-php mr-1'></i>PHP8",
-  "navClass": "navbar-dark bg-primary",
+  "siteHeaderHtml": "<div><img src='https://keystonedata.co.in/wp-content/uploads/2018/04/PHP-Development.png' class='img-fluid' /></div>",
+  "navClass": "bg-dark navbar-dark",
   "navLinks": [{
       "file": "1.What’s new in PHP 8.0.html",
       "text": "What's new"

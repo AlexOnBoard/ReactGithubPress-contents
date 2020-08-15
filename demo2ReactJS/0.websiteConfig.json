@@ -1,6 +1,6 @@
 {
   "siteName": "ReactJS",
-  "siteDescription": "",
+  "siteHeaderHtml": "<h2 class='text-center text-success'><i class='fab fa-react mr-1'></i>ReactJS</h2>",
   "navBrand": "<i class='fab fa-react mr-1'></i>ReactJS",
   "navClass": "navbar-dark bg-primary",
   "navLinks": [{

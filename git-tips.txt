@@ -1,0 +1,3 @@
+-- if not ask password for another git user,  try below
+git config --local credential.helper ""
+git push https://AlexOnBoard@github.com/AlexOnBoard/ReactGithubPress-contents.git

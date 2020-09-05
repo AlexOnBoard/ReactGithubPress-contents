@@ -4,9 +4,7 @@
 
     <a class="btn btn-secondary" style="cursor: move;" href='javascript:(function(){var a=window,b=document,c=encodeURIComponent,p="meta[name=\"description\"]",n=b.querySelector(p)?b.querySelector(p).content:"",d=a.open("https://www.favoritelinks.tech/links.php?action=add&from=browserBar&url="+c(b.location)+"&name="+c(b.title)+"&desc="+c(n),"mfl_pop","left="+((a.screenX||a.screenLeft)+10)+",top="+((a.screenY||a.screenTop)+10)+",height=530px,width=580px,resizable=1,alwaysRaised=1");a.setTimeout(function(){d.focus()},300)})();' onClick="alert('Drag this link onto your bookmarks bar');return false">Add Favorite Link</a>
 
-    -
 
-    <a class="btn btn-secondary" style="cursor: move;" href='https://www.favoritelinks.tech/dashboard.php' onClick="alert('Drag this link onto your bookmarks bar');return false">Ny Favorite Links</a>
 </div>
 <div class="text-center">
     Then you can add a link by just one click, videos below:
@@ -21,6 +19,11 @@
         <li>Make sure your &quot;bookmarks bar&quot; is visible.</li>
         <li>
             Drag the button above to your bookmarks bar.
+        </li>
+        <li>
+            You can also drag this button to the bookmark bar to quickly access all your links   -
+
+            <a class="btn btn-info" style="cursor: move;" href='https://www.favoritelinks.tech/dashboard.php' onClick="alert('Drag this link onto your bookmarks bar');return false">My Favorite Links</a>
         </li>
     </ol>
 </div>

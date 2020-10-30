@@ -1,42 +1,24 @@
 <h3 class="text-center">How to add link more easily?</h3>
 <div class="text-center p-3">
-  Drag this button to the Bookmarks bar of your browser:
+    Drag this button to the Bookmarks bar of your browser:
 
-  <a
-    class="btn btn-secondary"
-    style="cursor: move"
-    href='javascript:(function(){var a=window,b=document,c=encodeURIComponent,p="meta[name=\"description\"]",n=b.querySelector(p)?b.querySelector(p).content:"",d=a.open("http://comp606.test/assignment2/links.php?action=add&from=browserBar&url="+c(b.location)+"&name="+c(b.title)+"&desc="+c(n),"mfl_pop","left="+((a.screenX||a.screenLeft)+10)+",top="+((a.screenY||a.screenTop)+10)+",height=530px,width=580px,resizable=1,alwaysRaised=1");a.setTimeout(function(){d.focus()},300)})();'
-    onClick="alert('Drag this link onto your bookmarks bar');return false"
-    >Add Favorite Link</a
-  >
+    <a class="btn btn-secondary" style="cursor: move" href='javascript:(function(){var a=window,b=document,c=encodeURIComponent,p="meta[name=\"description\"]",n=b.querySelector(p)?b.querySelector(p).content:"",d=a.open("https://www.favoritelinks.tech/links.php?action=add&from=browserBar&url="+c(b.location)+"&name="+c(b.title)+"&desc="+c(n),"mfl_pop","left="+((a.screenX||a.screenLeft)+10)+",top="+((a.screenY||a.screenTop)+10)+",height=530px,width=580px,resizable=1,alwaysRaised=1");a.setTimeout(function(){d.focus()},300)})();' onClick="alert('Drag this link onto your bookmarks bar');return false">Add Favorite Link</a>
 </div>
 <div class="text-center">
-  Then you can add a link by just one click, videos below:
-  <div class="embed-responsive embed-responsive-16by9">
-    <iframe
-      class="embed-responsive-item"
-      src="https://www.youtube.com/embed/nvk2_iaq90Q?autoplay=1"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen
-    ></iframe>
-  </div>
+    Then you can add a link by just one click, videos below:
+    <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nvk2_iaq90Q?autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
 
-  <p>In desktop browsers:</p>
-  <ol>
-    <li>Make sure your &quot;bookmarks bar&quot; is visible.</li>
-    <li>Drag the button above to your bookmarks bar.</li>
-    <li>
-      You can also drag this button to the bookmark bar to quickly access all
-      your links -
+    <p>In desktop browsers:</p>
+    <ol>
+        <li>Make sure your &quot;bookmarks bar&quot; is visible.</li>
+        <li>Drag the button above to your bookmarks bar.</li>
+        <li>
+            You can also drag this button to the bookmark bar to quickly access all
+            your links -
 
-      <a
-        class="btn btn-info"
-        style="cursor: move"
-        href="https://www.favoritelinks.tech/dashboard.php"
-        onClick="alert('Drag this link onto your bookmarks bar');return false"
-        >My Favorite Links</a
-      >
-    </li>
-  </ol>
+            <a class="btn btn-info" style="cursor: move" href="https://www.favoritelinks.tech/dashboard.php" onClick="alert('Drag this link onto your bookmarks bar');return false">My Favorite Links</a>
+        </li>
+    </ol>
 </div>
